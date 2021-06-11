@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+#b-header{
+    margin: 100px 0 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pink{
+    color:#DF146E;
+    text-transform: capitalize;
+}
+.green{
+    color: green;
+}
+.bolder{
+    font-weight: bolder;
+}
+.fa-check{
+    font-size: 26px;
+    color: green;
+    background-color: transparent;
+    border: 3px solid green;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+#number{
+    margin-bottom: 20px;
+}
+.user-number{
+    display: flex;
+    align-items: center;
+}
+.fa-user-circle{
+    font-size: 40px;
+    color: lightgrey;
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.user-number span{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+
+.time{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+.time span{
+    color: rgb(48, 45, 45);
+}
+.time .p{
+    color: rgb(80, 78, 78);
+    margin: 0;
+}
+.tras-id{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.tras-id p{
+    margin: 0;
+}
+.token{
+    color: rgb(80, 78, 78);
+    font-weight: 600;
+    font-size: 14px;
+}
+.p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.time img, .tras-id img{
+    width: 10px;
+    height: 10px;
+    color: #000;
+}
+.time span, .tras-id span{
+    display: flex;
+    align-items: center;
+}
+.token-b{
+    text-transform: capitalize;
+    color: rgb(80, 78, 78);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DF146E;
+    color: #fff;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.s{
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+#foot{
+    margin: 100px 0 0;
+}
+
+@media(max-width: 767px){
+    .pink, .green{
+        font-size: 20px;
+    }
+}
